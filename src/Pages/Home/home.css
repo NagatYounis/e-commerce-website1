@@ -1,0 +1,40 @@
+.hero{
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 80px
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper-slide .content{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 5%;
+}
+.content h4{
+    font-size: 1vw;
+    color: rgb(113, 155, 245);
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 0.4vw;
+
+
+   
+}
+.content h3{
+    font-size: 3vw;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: blue;
+    line-height: 1.1;
+}
+.content p{
+    font-size: 3vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+

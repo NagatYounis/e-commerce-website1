@@ -1,0 +1,116 @@
+.checkout{
+margin: 50px 0;
+}
+
+.order-summery{
+width: 45%;
+padding: 0 20px;
+border: 1px solid blue;
+box-shadow: 0 7px 10px #222;
+border-radius: 5px;
+margin: 0 auto;
+}
+.checkout .order-summery h1{
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    color: #043c5f;
+}
+.checkout .items{
+    height: 350px;
+    overflow-y: auto;
+    
+}
+.items .item_cart{
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-between;
+height: 120px;
+border-bottom: 1px solid #222;
+padding-right: 20px;
+
+}
+.item_cart:last-child{
+  border-bottom: none;
+}
+.items .item_cart img{
+  width: 80px;
+
+}
+.content{
+  width: 100%;
+justify-content: center;
+align-items: start;
+display: flex;
+flex-direction: column;
+}
+
+.items .item_cart .img_name{
+display: flex;
+align-items: center;
+gap: 20px;
+   
+}
+.price_item{
+  color: #222;
+}
+
+ .items svg{
+  fill: red;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.items svg:hover{
+scale: 1.2;
+}
+
+.quality_controle{
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.quality_controle button{
+  width: 27px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid #043c5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bottom_summery{
+border-top: 1px solid #043c5f;
+padding-top: 25px;
+}
+.bottom_summery .shop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.bottom_summery .submit_order button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #043c5f;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 15px 0;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #043c5f;
+  box-sizing: border-box;
+}
+.bottom_summery .submit_order button:hover{
+background-color: transparent;
+color: #043c5f;
+}
