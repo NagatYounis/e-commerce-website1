@@ -26,5 +26,3 @@ e-commerce-website1-iota.vercel.app
 ## Future Improvements
 - User authentication
 - Checkout flow
-
-## Libraries & Tools
